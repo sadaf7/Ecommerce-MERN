@@ -1,0 +1,17 @@
+.new_product_heading{
+    text-align: center;
+}
+
+.new_product_container form{
+    padding-top: 2rem;
+}
+
+.product_img_prev{
+    width: 300px;
+    display: flex;
+    gap: 0.8rem;
+    overflow: auto;
+}
+.product_img_prev img{
+    width: 100%;
+}

@@ -1,0 +1,136 @@
+.productDetails{
+    box-sizing: border-box;
+    padding: 6vmax;
+    background-color: rgb(167, 171, 179);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carouselDiv {
+    width: 400px;
+    margin: 0 auto;
+}
+.carouselDiv img{
+    width: 100%;
+}
+.btn{
+    border: none;
+    padding: 0.7vmax;
+    font-size: 18px;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgb(24, 31, 92);
+    color: white;
+}
+.detailsBlock_1 p{
+    color: rgb(51, 51, 51);
+}
+.detailsBlock_1 h4{
+    color: rgb(15, 4, 53)
+}
+.cartBtn{
+    margin-left: -4vmax;
+}
+.btn:hover{
+    background-color: rgb(10, 13, 43);
+    color: white;
+}
+.detailsBlock_2{
+    border-top: 1px solid rgb(24, 31, 92);
+    border-bottom: 1px solid rgb(24, 31, 92);
+    width: 70%;
+    padding: 0.7vmax 0;
+}
+.detailsBlock_2_span{
+    font-size: 1rem;
+}
+.detailsBlock_3{
+    padding: 1vmax 0;
+}
+.detailsBlock_3 h3{
+    color: black;
+}
+.detailsBlock_3 .detailsBlock_3_1 .detailsBlock_3_1_1 button{
+    background-color: rgb(24, 31, 92);
+    color: white;
+    outline: none;
+    width: 2vmax;
+    border: none;
+    padding: 0.7vmax;
+}
+.detailsBlock_3 .detailsBlock_3_1 .detailsBlock_3_1_1 button:hover{
+    background-color: rgb(10, 13, 43);
+}
+.detailsBlock_3 .detailsBlock_3_1 .detailsBlock_3_1_1 input{
+    width: 10%;
+    outline: none;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 0.7vmax 0;
+}
+.detailsBlock_3 .detailsBlock_3_1{
+    display: flex;
+    align-items: center;
+}
+.detailsBlock_3_1_1{
+    padding: 1vmax 0;
+}
+.status{
+    margin-top: 0.5vmax;
+    border-top: 1px solid rgb(24, 31, 92);
+    border-bottom: 1px solid rgb(24, 31, 92);
+    padding: 0.7vmax 0;
+    width: 70%;
+}
+.detailsBlock_4 span{
+    color: black;
+    font-weight: 600;
+}
+.detailsBlock_4 p{
+    color: black;
+}
+.header_review{
+    text-align: center;
+    font-size: var(--heading-size);
+    border-bottom: 1px solid rgb(92, 86, 86);
+    width: 20vmax;
+    margin: 1vmax auto;
+    padding: 1rem 0;
+}
+.submitReviewDialog{
+    display: flex;
+    flex-direction: column;
+}
+.submitDialogTxtArea{
+    width: 100%;
+    border: 1px solid rgb(13, 13, 77);
+    outline: none;
+    padding: 1rem;
+    margin: 0.8rem 0;
+}
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    row-gap: 1rem;
+    padding-top: 1.5vmax;
+}
+.no_reviews{
+    text-align: center;
+    font-size: 2vmax;
+}
+@media only screen and (max-width: 600px) {
+    .productDetails{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .reviews{
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,9 @@
+.order_success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+    text-align: center;
+}

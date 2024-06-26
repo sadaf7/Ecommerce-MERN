@@ -1,0 +1,23 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem 0;
+    height: 100%;
+}
+.sidebar a{
+    padding: 1rem;
+    transition: all 0.3s;
+    color: rgb(53, 53, 182);
+}
+.sidebar a:hover{
+    color: rgb(14, 14, 73);
+    transform: scale(0.98);
+}
+.sidebar a{
+    display: flex;
+    align-items: center;
+}
+.sidebar>a>svg{
+    margin-right: 0.5rem;
+}

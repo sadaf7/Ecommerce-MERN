@@ -1,0 +1,31 @@
+.paymentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 5rem;
+}
+.payment_form h4{
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.payment_form_box {
+    padding-top: 1.5rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.payment_input{
+    width: 100%;
+    padding: 1rem;
+    /* border: 1px solid rgb(48, 46, 46); */
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: rgba(36, 49, 122, 0.2) 0px 2px 8px 0px;
+}
+.payment_input_div{
+    padding-bottom: 1rem;
+}

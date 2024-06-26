@@ -1,0 +1,26 @@
+.cart_item_card{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.cart_item_card .cart_item_card_info_div{ 
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.cart_item_card .cart_item_card_info_div p{ 
+    color: tomato;
+    cursor: pointer;
+}
+.cart_item_card .cart_item_card_info_div a{ 
+    text-decoration: none;
+}
+
+.cart_item_card_img_div{
+    width: 130px;
+}
+.cart_item_card_img_div img{
+    width: 100%;
+}
